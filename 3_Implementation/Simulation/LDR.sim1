@@ -1,0 +1,85 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="MCU" CircId="mega328-1" mainComp="false" Show_id="true" Show_Val="false" Pos="832,592" rotation="0" hflip="1" vflip="1" label="mega328-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../../../../../../AppData/Local/Temp/arduino_build_494184/abc.ino.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1068,408" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-10,7" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-4" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1068,460" rotation="0" hflip="1" vflip="1" label="Resistor-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-5" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1068,512" rotation="0" hflip="1" vflip="1" label="Resistor-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="692,620" rotation="0" hflip="1" vflip="1" label="Resistor-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="4.7 kΩ" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-7" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="1512,992" rotation="0" hflip="1" vflip="1" label="Voltage Source-7" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Value_Volt="2.835 V" MaxValue="5 V" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-8" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="596,604" rotation="0" hflip="1" vflip="1" label="Voltage Source-8" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Value_Volt="5 V" MaxValue="5 V" />
+
+<item itemtype="AudioOut" CircId="AudioOut-9" mainComp="false" Show_id="false" Show_Val="false" Pos="988,588" rotation="0" hflip="1" vflip="1" label="AudioOut-9" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="inf Ω" />
+
+<item itemtype="Led" CircId="Led-10" mainComp="false" Show_id="false" Show_Val="false" Pos="992,408" rotation="0" hflip="1" vflip="1" label="Led-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-11" mainComp="false" Show_id="false" Show_Val="false" Pos="992,460" rotation="0" hflip="1" vflip="1" label="Led-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-12" mainComp="false" Show_id="false" Show_Val="false" Pos="996,512" rotation="0" hflip="1" vflip="1" label="Led-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="LDR" CircId="LDR-13" mainComp="false" Show_id="false" Show_Val="false" Pos="1080,588" rotation="0" hflip="1" vflip="1" label="LDR-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Lux="1e-12 Lux" Min_Lux="1e-12 Lux" Max_Lux="1000 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+
+<item itemtype="Ground" CircId="Ground-14" mainComp="false" Show_id="false" Show_Val="false" Pos="1208,664" rotation="0" hflip="1" vflip="1" label="Ground-14" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-38" mainComp="false" Pos="1208,460" />
+
+<item itemtype="Node" CircId="Node-41" mainComp="false" Pos="1208,512" />
+
+<item itemtype="Node" CircId="Node-44" mainComp="false" Pos="1208,588" />
+
+<item itemtype="Node" CircId="Node-47" mainComp="false" Pos="1208,628" />
+
+<item itemtype="Node" CircId="Node-69" mainComp="false" Pos="1208,568" />
+
+<item itemtype="Node" CircId="Node-77" mainComp="false" Pos="640,620" />
+
+<item itemtype="Connector" uid="connector-78" startpinid="Led-10-rPin" endpinid="Resistor-3-lPin" pointList="1008,408,1052,408" />
+
+<item itemtype="Connector" uid="connector-79" startpinid="Led-12-rPin" endpinid="Resistor-5-lPin" pointList="1012,512,1052,512" />
+
+<item itemtype="Connector" uid="connector-80" startpinid="Led-12-lPin" endpinid="mega328-1-PORTD2" pointList="980,512,776,512,776,624,824,624" />
+
+<item itemtype="Connector" uid="connector-81" startpinid="Led-11-rPin" endpinid="Resistor-4-lPin" pointList="1008,460,1052,460" />
+
+<item itemtype="Connector" uid="connector-82" startpinid="Resistor-4-rPin" endpinid="Node-38-0" pointList="1084,460,1208,460" />
+
+<item itemtype="Connector" uid="connector-83" startpinid="Resistor-3-rPin" endpinid="Node-38-1" pointList="1084,408,1208,408,1208,460" />
+
+<item itemtype="Connector" uid="connector-84" startpinid="Node-38-2" endpinid="Node-41-0" pointList="1208,460,1208,512" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="Resistor-5-rPin" endpinid="Node-41-1" pointList="1084,512,1208,512" />
+
+<item itemtype="Connector" uid="connector-86" startpinid="Node-41-2" endpinid="Node-69-0" pointList="1208,512,1208,568" />
+
+<item itemtype="Connector" uid="connector-87" startpinid="LDR-13-rPin" endpinid="Node-44-1" pointList="1096,588,1208,588" />
+
+<item itemtype="Connector" uid="connector-88" startpinid="Node-44-2" endpinid="Node-47-0" pointList="1208,588,1208,628" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="AudioOut-9-rPin" endpinid="Node-47-1" pointList="972,588,972,628,1208,628" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="Node-47-2" endpinid="Ground-14-Gnd" pointList="1208,628,1208,648" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="AudioOut-9-lPin" endpinid="mega328-1-PORTD5" pointList="972,580,948,580,948,732,764,732,764,680,824,680" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="mega328-1-PORTB0" endpinid="LDR-13-lPin" pointList="824,704,796,704,796,720,1048,720,1048,588,1064,588" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="Resistor-6-rPin" endpinid="Node-69-1" pointList="708,620,740,620,740,736,1160,736,1160,568,1208,568" />
+
+<item itemtype="Connector" uid="connector-94" startpinid="Node-69-2" endpinid="Node-44-0" pointList="1208,568,1208,588" />
+
+<item itemtype="Connector" uid="connector-95" startpinid="Voltage Source-8-outPin" endpinid="Node-77-0" pointList="624,620,640,620" />
+
+<item itemtype="Connector" uid="connector-96" startpinid="Node-77-2" endpinid="Resistor-6-lPin" pointList="640,620,676,620" />
+
+<item itemtype="Connector" uid="connector-97" startpinid="Node-77-1" endpinid="mega328-1-PORTV0" pointList="640,620,640,748,904,748,904,664,872,664" />
+
+<item itemtype="Connector" uid="connector-98" startpinid="Led-11-lPin" endpinid="mega328-1-PORTD1" pointList="976,460,792,460,792,616,824,616" />
+
+<item itemtype="Connector" uid="connector-99" startpinid="Led-10-lPin" endpinid="mega328-1-PORTD0" pointList="976,408,756,408,756,608,824,608" />
+
+</circuit>
