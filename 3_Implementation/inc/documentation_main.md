@@ -1,0 +1,1 @@
+@mainpage LDR SENSOR by "A Preethi" @subpage ldr_sensor_operations.h
