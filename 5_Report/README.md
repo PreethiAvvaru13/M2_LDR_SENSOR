@@ -20,6 +20,7 @@ Photo conductivity is used to operate this resistor. When light strikes the devi
 # Applications of LDR :
 * These devices are employed in situations where it is important to detect the presence and absence of light. 
 * LDRs are utilised as light sensors and are commonly found in alarm clocks, street lights, light intensity metres, and burglar alarm circuits.
+* Used as part of a SCADA system to perform functions such as counting the number of packages on a moving conveyor belt.
  
 # Advantages and Disadvantages :
 # Advantages :
