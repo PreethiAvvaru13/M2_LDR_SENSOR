@@ -1,4 +1,4 @@
-name: Cppcheck Analysis
+name: Cppcheck Analyse
 
 on:
   push:
