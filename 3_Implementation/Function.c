@@ -11,8 +11,8 @@
 #include <stdio.h>
 
 /**
-* @brief
-* @return 
+* @brief initializing of pin mode
+* @return declaration
 */
 
 void setup() {
@@ -23,8 +23,8 @@ void setup() {
   }
 
  /**
- * @brief
- * @return 
+ * @brief initialization part
+ * @return declaration part
  */
 
   void loop() 
@@ -36,8 +36,8 @@ void setup() {
   }
 
  /**
- * @brief
- * @return 
+ * @brief part of the execution
+ * @return execution part
  */
 
   void status_Indicator()
