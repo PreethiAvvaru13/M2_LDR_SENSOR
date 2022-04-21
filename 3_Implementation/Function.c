@@ -1,7 +1,7 @@
 /**
  * @file function.c
  * @author A Preethi (avvarupreethi13@gmail.com)
- * @brief Project to LDR SENSOR
+ * @brief Project to LDR SENSOR connected to AVR328 MCU GPIO pins
  * @version 0.1
  * @date 2022-04-20
  * 
